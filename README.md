@@ -10,8 +10,6 @@ It supports:
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 ```
 face-recognition-lbph/
 │
