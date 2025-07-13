@@ -19,8 +19,9 @@ face-recognition-lbph/
 ├── face_trained.yml            # Saved trained model
 ├── features.npy                # Saved face feature data
 ├── labels.npy                  # Saved labels
-├── val/                        # Folder with test images (validation)
-│   └── test.jpg
+├── validation/                        # Folder with test images (validation)
+│   └── test1.jpg
+│   └── test2.jpg
 ├── train/                      # Training dataset (1 folder per person)
 │   ├── Chris Hemsworth/
 │   ├── Leonardo Dicaprio/
