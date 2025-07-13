@@ -6,7 +6,7 @@ import numpy as np
 people = ['Chris Hemsworth', 'Leonardo Dicaprio', 'Tom Cruise', 'Will Smith']
 
 # Path to training data directory
-DIR = r'C:\Users\jeshw\OneDrive\Desktop\project\face recognition LBPH\train'
+DIR = r'***path***\face recognition LBPH\train'
 
 # Load Haar Cascade face detector
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
