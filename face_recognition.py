@@ -8,7 +8,7 @@ people = ['Chris Hemsworth','Leonardo Dicaprio','Tom Cruise','Will Smith']
 faces_recognizer = cv.face.LBPHFaceRecognizer_create()
 faces_recognizer.read('face_trained.yml')
 
-img = cv.imread(r'C:\Users\jeshw\OneDrive\Desktop\project\face recog\val\test1.jpg')
+img = cv.imread(r'C:\Users\jeshw\OneDrive\Desktop\project\face recog\validation\test1.jpg')
 gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 
 face_rect = haar_cascade.detectMultiScale(gray,1.05,7)
