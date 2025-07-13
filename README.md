@@ -10,24 +10,8 @@ It supports:
 
 ## 📁 Project Structure
 
-face-recognition-lbph/
-│
-├── haar_face.xml # Haar cascade for face detection
-├── face_train.py # Script to train the model
-├── face_recognition.py # Script to test prediction on a test image
-├── face_trained.yml # Saved trained model
-├── features.npy # Saved face feature data
-├── labels.npy # Saved labels
-├── val/ # Folder with test images (validation)
-│ └── test.jpg
-├── train/ # Training dataset (1 folder per person)
-│ ├── Chris Hemsworth/
-│ ├── Leonardo Dicaprio/
-│ ├── Tom Cruise/
-│ └── Will Smith/
-└── README.md # You're reading it!
 
-<img width="593" height="424" alt="image" src="https://github.com/user-attachments/assets/84983772-ceb6-489b-baa6-b48064bfd220" />
+<img width="768" height="563" alt="image" src="https://github.com/user-attachments/assets/469cf364-92e6-441d-8969-ce5f962ecc13" />
 
 
 
