@@ -12,7 +12,7 @@ faces_recognizer = cv.face.LBPHFaceRecognizer_create()
 faces_recognizer.read('face_trained.yml')
 
 # Load the test image
-img = cv.imread(r'C:\Users\jeshw\OneDrive\Desktop\project\face recog\validation\test2.jpg')
+img = cv.imread(r'***path***\validation\test2.jpg')
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)  # Convert to grayscale
 
 # Detect faces in the test image
