@@ -12,19 +12,19 @@ It supports:
 
 face-recognition-lbph/
 │
-├── haar_face.xml # Haar cascade for face detection
-├── face_train.py # Script to train the model
-├── face_recognition.py # Script to test prediction on a test image
-├── face_trained.yml # Saved trained model
-├── features.npy # Saved face feature data
-├── labels.npy # Saved labels
-├── val/ # Folder with test images (validation)
-│ └── test.jpg
-├── train/ # Training dataset (1 folder per person)
-│ ├── Chris Hemsworth/
-│ ├── Leonardo Dicaprio/
-│ ├── Tom Cruise/
-│ └── Will Smith/
+├── haar_face.xml # Haar cascade for face detection.
+├── face_train.py # Script to train the model.
+├── face_recognition.py # Script to test prediction on a test image.
+├── face_trained.yml # Saved trained model.
+├── features.npy # Saved face feature data.
+├── labels.npy # Saved labels.
+├── val/ # Folder with test images (validation).
+│ └── test.jpg.
+├── train/ # Training dataset (1 folder per person).
+│ ├── Chris Hemsworth/.
+│ ├── Leonardo Dicaprio/.
+│ ├── Tom Cruise/.
+│ └── Will Smith/.
 └── README.md # You're reading it!
 
 
