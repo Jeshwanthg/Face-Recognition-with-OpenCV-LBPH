@@ -28,7 +28,9 @@ face-recognition-lbph/
 └── README.md # You're reading it!
 
 
-🛠️ How It Works
+
+🛠️ How It Works:
+
 🧪 Training the Recognizer
 The training script reads face images from subfolders inside train/, detects the face, extracts the region of interest (ROI), and trains an LBPH model:
 
